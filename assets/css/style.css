@@ -1,4 +1,25 @@
 body {
-    margin:0;
-    padding:0;
+    padding: auto;
+    text-transform: uppercase;
+}
+
+/* Hero Image */
+#hero-image {
+    background-image: url(/assets/imgs/fruit-loops-img.jpg);
+    background-repeat: repeat;
+    position: relative;
+    height: 90px;
+    width: auto;
+}
+
+#hero-text {
+    text-align: center;
+    color: black;
+    font-size: x-large;
+    font-weight: 900;
+}
+
+/* Navbar */
+.nav-link active {
+    float: left;
 }
