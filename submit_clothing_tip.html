@@ -26,11 +26,12 @@
                 event.preventDefault();
                 emailjs.sendForm("service_0muuuls", "fruit_loops_template", this)
                     .then(function () {
+                        window.location.replace("clothing_tips.html");
                         console.log('SUCCESS!');
                     }, function (error) {
+                        window.location.replace("submit_clothing_tip.html");
                         console.log('FAILED...', error);
                     });
-                
             });
         }
     </script>
@@ -57,14 +58,15 @@
 
     <h1 class="text-center fs-2 p-2">Submit a clothing tip here</h1>
     <h2 class="text-center fs-5">Share your experience with fellow queerios</h2>
-    <div class="mx-auto" style="width:200px;">
+
+    <div class="form-group mx-auto" style="width:400px">
         <form id="clothing-tip-form">
             <label>Name (optional)</label>
-            <input type="text" name="user_name">
+            <input class="form-control" type="text" name="user_name">
             <label>Email (optional)</label>
-            <input type="email" name="user_email">
-            <label>Clothing tip</label>
-            <textarea name="suggestion" required></textarea>
+            <input class="form-control" type="email" name="user_email">
+            <label>Submit your tip here! It will be reviewed by our site volunteers. If you have provided your email we will contact you to let you know if it has been published</label>
+            <textarea class="form-control" name="suggestion" required></textarea>
             <input type="submit" value="Send">
         </form>
     </div>
