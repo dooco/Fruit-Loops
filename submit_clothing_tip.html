@@ -12,6 +12,28 @@
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/assets/css/style.css">
     <title>🍇 Fruit Loops</title>
+
+    <!-- EmailJS scripts - within head - from documentation-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init('z4V96jMbCXKPuaPWE');
+        })();
+    </script>
+    <script type="text/javascript">
+        window.onload = function () {
+            document.getElementById('clothing-tip-form').addEventListener('submit', function (event) {
+                event.preventDefault();
+                emailjs.sendForm("service_0muuuls", "fruit_loops_template", this)
+                    .then(function () {
+                        console.log('SUCCESS!');
+                    }, function (error) {
+                        console.log('FAILED...', error);
+                    });
+                
+            });
+        }
+    </script>
 </head>
 
 <body>
@@ -33,37 +55,20 @@
         </div>
     </nav>
 
+    <h1 class="text-center fs-2 p-2">Submit a clothing tip here</h1>
+    <h2 class="text-center fs-5">Share your experience with fellow queerios</h2>
+    <div class="mx-auto" style="width:200px;">
+        <form id="clothing-tip-form">
+            <label>Name (optional)</label>
+            <input type="text" name="user_name">
+            <label>Email (optional)</label>
+            <input type="email" name="user_email">
+            <label>Clothing tip</label>
+            <textarea name="suggestion" required></textarea>
+            <input type="submit" value="Send">
+        </form>
+    </div>
 
-    <h1 class="text-center fs-2 p-2">Clothing tips</h1>
-    <h2 class="text-center fs-5">Written by queer people, for queer people</h2>
-    <ul class="text-center list-group p-2" style="list-style-type:none;">
-        <li><a href="#how-to-dress">How to Dress like you Always Wanted to</a></li>
-        <li><a href="#where-to-get-the-good-stuff">Where to get the Good Stuff</a></li>
-        <li><a href="#make-your-own-clothes">Bypass Capitalism (make your own clothes)</a></li>
-        <li><a href="#how-to-bind-safely">How to Bind Safely</a></li>
-    </ul>
-
-
-    <div class="text-center p-4">
-        <h3 id="how-to-dress" class="fs-4">How to Dress like you Always Wanted to</h3>
-        <p>Find good clothes conversion guides, put em here</p>
-    </div>
-    <div class="text-center p-4">
-        <h3 id="where-to-get-the-good-stuff" class="fs-4">Where to get the Good Stuff</h3>
-        <p>Thriftify, Nuw, Depop</p>
-    </div>
-    <div class="text-center p-4">
-        <h3 id="make-your-own-clothes" class="fs-4">Bypass Capitalism (make your own clothes)</h3>
-        <p>freesewing, mood sewcity, free course in dublin, free youtube courses, library, donedeal</p>
-    </div>
-    <div class="text-center p-4">
-        <h3 id="how-to-bind-safely" class="fs-4">How to Bind Safely</h3>
-        <p>safety tips (teni, gc2b), list of trans owned binder companies</p>
-    </div>
-    <div class="text-center p-2 fs-5">
-        <a href="submit_clothing_tip.html">Submit a clothing tip here</a>
-    </div>
-    
 </body>
 
 </html>
