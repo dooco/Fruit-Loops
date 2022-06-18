@@ -1,8 +1,15 @@
+/* Colours:
+Nav - #402342
+Backgrounds - #48446E
+Text - #F2FEDC */
+
 body {
     
     padding: auto;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     font-family: Arial, Helvetica, sans-serif;
+	background-color: #48446e;
+	color: #f2fedc;
 }
 
 /* Hero Image */
@@ -104,7 +111,7 @@ header {
   	top: 0;
 	left: 0;
 	width: 100%; 
-	background-color: #00C0C0;
+	background-color: #402342;
 }
 .container-header {
 	width: 100%;
@@ -123,17 +130,17 @@ h1{
 h1 a {  
     text-decoration: none ;
 	padding-left: 20px;    
-    color: #fff;  
+    color: #f2fedc;  
 }
 
 h1 a:hover {
-    color: #c0c0c0;
+    color: #48446E;
     text-decoration: none ;
     
 } 
 .menu {
     width: 100%;
-    background-color: pink;
+    background-color: #f2fedc;
     position: absolute;
     left: 100%;
     top: 65px;
@@ -156,10 +163,10 @@ nav ul li a{
 	padding:10px 0px;
 	text-decoration:none;
 	text-align:center;	
-	color: #008026;
+	color: #48446E;
 }
 nav ul li a:hover{				
-	color: #004DFF;	
+	color: #402342;	
 }
 .menu-click {
     left: 0%;
@@ -275,7 +282,8 @@ main{
 			
 			nav ul li a{
 				display:block;
-				background-color:#FF8C00;
+				background-color:#48446E;
+				color: #F2FEDC;
 				width:100%;
 				padding:10px 0px;
 				text-decoration:none;
@@ -284,8 +292,8 @@ main{
 				transition:all 1s;
 			}
 			nav ul li a:hover{				
-				color: #004DFF;
-				background-color: #FFED00 ;
+				color: #F2FEDC;
+				background-color: #3a356b ;
 				
 			}
 	 nav ul li a:before{
@@ -295,7 +303,7 @@ main{
 			height:100%;
 			top:0;
 			left:0;
-			background-color:#FFED00;
+			background-color:#7c3a58;
 			transition:all 1s;
 		}
 			
@@ -306,7 +314,7 @@ main{
 			height:100%;
 			top:0;
 			left:100%;
-			background-color:#FFED00;
+			background-color:#7c3a58;
 			transition:all 1s;
 		}
 			
@@ -330,11 +338,20 @@ main{
 		
 
 		
-/* Style for clothing tips page		 */
+/* Style for clothing tips page */
 
+.clothing-color-test {
+	background-color: #402342;
+	color: #f2fedc;
+}
+
+.clothing-tips-main {
+	/* background-color: #282257; */
+	color: #f2fedc;
+}
 .clothing-tips-main a {
 	text-decoration: none;
-	color: #750787;
+	color: #f2fedc;
 }
 
 .clothing-tips-main a:hover {
