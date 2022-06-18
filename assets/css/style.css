@@ -247,10 +247,41 @@ main{
 		
 
 		
+/* Style for clothing tips page		 */
+
+.clothing-tips-main a {
+	text-decoration: none;
+	color: #750787;
+}
+
+.clothing-tips-main a:hover {
+	text-decoration: underline;
+}
+
+.clothing-menu-list {
+	list-style-type: none;
+}
 		
 		
-		
-		
+/* Back to top button for clothing tips page	
+Code from W3 https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
+#clothingBtn {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index: 99;
+	border: none;
+	outline: none;
+	background-image: linear-gradient(to top, #750787, #75159b, #7121b1, #682ec8, #563bdf, #4253ec, #2a67f7, #0079ff, #008cf2, #008fb9, #008a6d, #008026);
+	color: white;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 10px;
+	font-size: 14px;
+  }
+
+  
 		
 
 	

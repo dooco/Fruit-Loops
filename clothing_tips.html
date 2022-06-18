@@ -30,21 +30,24 @@
         </div>
     </header>
 
-    <main>
-        <h1 class="text-center fs-2 p-2">Clothing tips</h1>
-        <h2 class="text-center fs-5">Bring on the gender euphoria</h2>
-        <ul class="text-center list-group clothing-list p-2" style="list-style-type:none">
-            <li><a class="clothing-link" href="#how-to-dress" style="text-decoration:none;color: #750787;">How to Dress like you Always Wanted to</a></li>
-            <li><a href="#where-to-get-the-good-stuff">Where to get the Good Stuff</a></li>
-            <li><a href="#make-your-own-clothes">Bypass Capitalism (make your own clothes)</a></li>
-            <li><a href="#how-to-bind-safely">How to Bind Safely</a></li>
-        </ul>
+    <main class="clothing-tips-main">
+        <div class="clothing-tips-menu">
+            <h1 class="text-center fs-2 p-2">Clothing tips</h1>
+            <h2 class="text-center fs-5">Bring on the gender euphoria</h2>
+            <ul class="text-center list-group clothing-menu-list p-2">
+                <li><a href="#how-to-dress">How
+                        to Dress like you Always Wanted to</a></li>
+                <li><a href="#where-to-get-the-good-stuff">Where to get the Good Stuff</a></li>
+                <li><a href="#make-your-own-clothes">Bypass Capitalism (make your own clothes)</a></li>
+                <li><a href="#how-to-bind-safely">How to Bind Safely</a></li>
+            </ul>
+        </div>
 
 
-        <div class="text-center p-4">
+        <div class="text-center p-4 clothing-tips-group">
             <h3 id="how-to-dress" class="fs-4">How to Dress like you Always Wanted to</h3>
-            <a class="clothing-link" href="https://www.transgenderpulse.com/clothing-size-charts/" aria-label="Opens in a new tab"
-                rel="noopener" target="_blank">Clothing size guide - womenswear</a>
+            <a class="clothing-link" href="https://www.transgenderpulse.com/clothing-size-charts/"
+                aria-label="Opens in a new tab" rel="noopener" target="_blank">Clothing size guide - womenswear</a>
             <br>
             <a href="https://www.pride.com/fashion/2016/1/06/6-simple-fashion-tips-trans-men"
                 aria-label="Opens in a new tab" rel="noopener" target="_blank">Tips on dressing masc</a>
@@ -60,7 +63,7 @@
 
         </div>
 
-        <div class="text-center p-4">
+        <div class="text-center p-4 clothing-tips-group">
             <h3 id="where-to-get-the-good-stuff" class="fs-4">Where to get the Good Stuff</h3>
             <p><a href="https://www.thriftify.ie/" aria-label="Opens in a new tab" rel="noopener"
                     target="_blank">Thriftify</a>
@@ -73,10 +76,9 @@
 
         </div>
 
-        <div class="text-center p-4">
+        <div class="text-center p-4 clothing-tips-group">
             <h3 id="make-your-own-clothes" class="fs-4">Bypass Capitalism (make your own clothes)</h3>
-            <p>Starting in sewing can be difficult, but it can also provide a good way to avoid the gendered world of
-                clothes.
+            <p>Starting in sewing can be difficult, but it can also provide a good way to avoid the world of gendered clothes.
                 Some libraries have sewing machines, and you can get cheap machines second hand.</p>
             <p><a href="https://www.moodfabrics.com/blog/" aria-label="Opens in a new tab" rel="noopener"
                     target="_blank">Mood Sewciety</a>
@@ -107,7 +109,7 @@
             </ul>
         </div>
 
-        <div class="text-center p-4">
+        <div class="text-center p-4 clothing-tips-group">
             <h3 id="how-to-bind-safely" class="fs-4">How to Bind Safely</h3>
             <p>Listen to your body. Check out the below links to find out how to achieve gender paradise.</p>
             <a href="https://teni.ie/lifehacks/" aria-label="Opens in a new tab" rel="noopener" target="_blank">TENI's
@@ -125,10 +127,16 @@
                 target="_blank">
                 Comprehensive binder guide from Transgender Teen Survival Guide</a>
         </div>
-        <div class="text-center p-2 fs-5">
+
+        <div class="text-center p-4 fs-5">
             <a href="submit_clothing_tip.html">Submit a clothing tip here</a>
         </div>
+
+        <!-- Back to top button from W3 https://www.w3schools.com/howto/howto_js_scroll_to_top.asp -->
+        <button onclick="topFunction()" id="clothingBtn" title="Go to top">Back to top</button>
+
     </main>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="./assets/js/script.js"></script>
 </body>
