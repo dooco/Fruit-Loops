@@ -103,7 +103,8 @@ purple = #750787
 light blue = #00C0C0*/
 
 .test1{
-	width: 100%;
+	width: 80%;
+	margin: 0 auto;
 	border: 1px solid red;
 }
 header {
@@ -111,7 +112,12 @@ header {
   	top: 0;
 	left: 0;
 	width: 100%; 
+
+	background-color: #00C0C0;
+	z-index: 9999;
+
 	background-color: #402342;
+
 }
 .container-header {
 	width: 100%;
@@ -129,8 +135,10 @@ h1{
 }
 h1 a {  
     text-decoration: none ;
+
 	padding-left: 20px;    
     color: #f2fedc;  
+
 }
 
 h1 a:hover {
@@ -241,6 +249,29 @@ nav ul li a:hover{
 }
 main{
 	margin-top: 100px;
+}
+/*         carouselExampleControls         */
+
+#carouselExampleControls{   
+   
+	width: 88%;
+ margin: 20px auto;
+    max-height: 600px;
+}
+
+#carouselExampleControls img{
+   	max-height: 80vh;
+}
+#carouselExampleControls h4{
+    padding-bottom: 20px;
+}
+#carousel2{
+    text-align: center;
+    margin: 40px 0;
+}
+
+.bold-carousel {
+    font-weight: 7git pou00;
 }
 /*     XXXXXXXXXXXXXXXXXX              PRIMERA MEDIA SCREEN                   ___________*/
 
