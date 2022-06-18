@@ -260,6 +260,37 @@ main{
 .bold-carousel {
     font-weight: 7git pou00;
 }
+/*		 support Area 	 */
+#supportArea {
+    background-color: #00C0C0 !important;
+    text-align: center;
+}
+
+#supportArea ul {
+    list-style-type: none;
+	margin: 0;
+	padding: 0;
+
+}
+#supportArea ul li{  
+	font-size: 13px;
+}
+#supportArea ul li:hover{  
+	font-size: 14px;
+}
+#supportArea a {
+    text-decoration: none;
+}
+
+#supportArea h3,
+h4 {
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+#supportArea img {
+    border-radius: 8px;
+}
 /*     XXXXXXXXXXXXXXXXXX              PRIMERA MEDIA SCREEN                   ___________*/
 
  @media (min-width: 768px) {
