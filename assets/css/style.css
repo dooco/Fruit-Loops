@@ -76,3 +76,9 @@ body {
 #wrapper-center {
     padding: 2px;
 }
+
+/* Calendar */
+#calendar {
+    text-align: center;
+    position: relative;
+}
