@@ -32,3 +32,47 @@ body {
     width: 350px;
     /* The width is the width of the web page */
 }
+
+/* Left-Panel */
+#left-panel {
+    margin-left: auto;
+    margin-right: 35px;
+    margin-bottom: 50px;
+    height: min-content;
+    width: min-content;
+    border: solid;
+    text-align: center;
+    float: left;
+    padding: 5px;
+    background-color: aliceblue;
+    color: black;
+    position: relative;
+}
+
+#inner-left {
+    float: left;
+}
+
+/* Right Panels */
+#right-panel {
+    padding-left: 2px;
+    margin: 0;
+    height: min-content;
+    width: min-content;
+    border: solid;
+    text-align: center;
+    float: right;
+    padding: 0;
+    background-color: aliceblue;
+    color: black;
+    position: relative;
+}
+
+#inner-right {
+    float: right;
+}
+
+/* Center Content */
+#wrapper-center {
+    padding: 2px;
+}
