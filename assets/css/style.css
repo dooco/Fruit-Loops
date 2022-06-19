@@ -328,9 +328,6 @@ footer ul {
     padding: 0px;
 }
 
-li:hover {
-    transform: translateY(-5px) scale(1.05);
-}
 
 footer li {
     display: inline;
