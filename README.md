@@ -13,9 +13,16 @@ First time visitor need to be able to easily navigate throughout the site to fin
 Frequent visitors want to be able check to see if there are any new upcoming events, to check on advice on places to go, find useful information on what clothes top wear and where to find the best places to buy clothes.  A submission form allows users to submit ideas which will be vetted by hosting volunteers and posted on site if appropriate. 
 
 ### Wireframes
+#### index
 ![fruit loops index](https://user-images.githubusercontent.com/81528829/174488894-04b123d8-a0a8-4f60-9086-ea1e6e46c0ff.png)
+#### Events
 ![fruit-loops-events](https://user-images.githubusercontent.com/81528829/174489850-69a54700-f982-49b5-bc11-9256196629f0.png)
+#### Clothing Tips
 ![fruit-loops-clothing-tips](https://user-images.githubusercontent.com/81528829/174490518-7483ce05-43a5-4648-b519-7d31d91fcd55.png)
+#### Fruity News
+![fruit-loops-fruity-news](https://user-images.githubusercontent.com/81528829/174491883-e7d8178e-96b2-4ed1-98ff-412958e77f2a.png)
+#### Safe Places
+![fruit-loops-fruity-safe-spaces](https://user-images.githubusercontent.com/81528829/174491630-5a2a340a-edea-46ff-b0d0-0e86e95d3741.png)
 
 
 ### Colours
