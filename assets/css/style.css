@@ -449,7 +449,6 @@ h4 {
 	max-width: 60vw;
 	max-height: 60vh;
 }
-
 		
 /* Back to top button for clothing tips page	
 Code from W3 https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
@@ -469,7 +468,13 @@ Code from W3 https://www.w3schools.com/howto/howto_js_scroll_to_top.asp */
 	font-size: 14px;
   }
 
-  
+
+  /* Style for submit clothing tip form */
+
+  .clothing-btn {
+	background-color: #402342;
+	color: #f2fedc;
+  }
 		
 
 	
