@@ -48,7 +48,14 @@ Relevant and up to date news on LGBTQ+ issues are posted on this page. Informati
 - JavaScript
 - GitHub
 - GitPod
-- Element
-- Element
+- Google Cloud Platform
+- BNootstrap
+## Resources
+
+[Dublin Pride](https://dublinpride.ie/events/) and [Meetup](https://www.meetup.com/) for events.
+
+[https://gcn.ie/](https://gcn.ie/) for news.
+
+[Dublin LGBTQ+ Pride](https://twitter.com/dublinpride) for twitter feed.
 
 ## Aknowledgments
