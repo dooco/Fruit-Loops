@@ -13,6 +13,8 @@ First time visitor need to be able to easily navigate throughout the site to fin
 Frequent visitors want to be able check to see if there are any new upcoming events, to check on advice on places to go, find useful information on what clothes top wear and where to find the best places to buy clothes.  A submission form allows users to submit ideas which will be vetted by hosting volunteers and posted on site if appropriate. 
 
 ### Wireframes
+![fruit loops index](https://user-images.githubusercontent.com/81528829/174488894-04b123d8-a0a8-4f60-9086-ea1e6e46c0ff.png)
+
 
 ### Colours
 
