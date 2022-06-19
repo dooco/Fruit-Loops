@@ -49,7 +49,7 @@ Relevant and up to date news on LGBTQ+ issues are posted on this page. Informati
 - GitHub
 - GitPod
 - Google Cloud Platform
-- BNootstrap
+- Bootstrap
 ## Resources
 
 [Dublin Pride](https://dublinpride.ie/events/) and [Meetup](https://www.meetup.com/) for events.
