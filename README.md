@@ -14,6 +14,8 @@ Frequent visitors want to be able check to see if there are any new upcoming eve
 
 ### Wireframes
 ![fruit loops index](https://user-images.githubusercontent.com/81528829/174488894-04b123d8-a0a8-4f60-9086-ea1e6e46c0ff.png)
+![fruit-loops-events](https://user-images.githubusercontent.com/81528829/174489850-69a54700-f982-49b5-bc11-9256196629f0.png)
+![fruit-loops-clothing-tips](https://user-images.githubusercontent.com/81528829/174490518-7483ce05-43a5-4648-b519-7d31d91fcd55.png)
 
 
 ### Colours
