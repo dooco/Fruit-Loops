@@ -26,6 +26,13 @@ Frequent visitors want to be able check to see if there are any new upcoming eve
 
 
 ### Colours
+We used [ColorSpace](https://mycolor.space/) for our site colour scheme and for the 'Back to top' button we used [Barchok's CSS pride flags](http://barchok.com/flags.html). We used:
+
+For navigation elements (and anything else requiring a darker colour) - #402342
+For backgrounds - #48446E
+For text - #F2FEDC
+
+![Colour Selection](./assets/readme/fl-colours.png "Screenshot of colour selection")
 
 ## Features
 ### Navigation
